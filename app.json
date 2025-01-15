@@ -2,6 +2,18 @@
   "expo": {
     "name": "my-app-localization",
     "slug": "my-app-localization",
-    "version": "1.0.0"
-  }
+    "version": "1.0.0",
+    "plugins": [
+      "expo-localization"
+    ],
+    "ios": {
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true
+      }
+  },
+  "extra": {
+      "supportsRTL": true,
+      "forcesRTL": true
+    }
+}
 }
